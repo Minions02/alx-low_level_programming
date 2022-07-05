@@ -1,19 +1,13 @@
-#include "holberton.h"
+#include <main.h>
+
 
 /**
- * main - function to print
+ * main -Entry point of the program
  *
- * Return: 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char main[9] = {'m', 'a', 'i', 'n'};
-	unsigned int c;
-
-	for (c = 0; c < sizeof(holberton); c++)
-	{
-		_putchar(holberton[c]);
-	}
-_putchar('\n');
-return (0);
+	printf("_putchar\n");
+	return (0);
 }
