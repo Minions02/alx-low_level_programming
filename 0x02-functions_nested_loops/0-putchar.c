@@ -1,23 +1,19 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * main - prints _putchar
+ * main - function to print
  *
- * Description: prints _putchar
- *
- * Return: 0 (Success)
+ * Return: 0
  */
-
 int main(void)
 {
-	char text[9] = "_putchar";
-	int i = 0;
+	char main[9] = {'m', 'a', 'i', 'n'};
+	unsigned int c;
 
-	for (i = 0; i < 8; i++)
+	for (c = 0; c < sizeof(holberton); c++)
 	{
-		_putchar(text[i]);
+		_putchar(holberton[c]);
 	}
-	_putchar('\n');
-
-	return (0);
+_putchar('\n');
+return (0);
 }
