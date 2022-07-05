@@ -1,39 +1,25 @@
 #include "main.h"
-
-
-
 /**
- *
- *  * print_last_digit - Print last digit of a number
- *
- *   * @r: An integer input
- *
- *    * Description: This function prints the last digit of a number
- *
- *     * Return: last digit of number r
- *
- *      */
-
-
-
-int print_last_digit(int r)
-
+ * jack_bauer - prints every minute of the day of Jack Bauer
+ * starting from 00:00 to 23:59
+ */
+void jack_bauer(void)
 {
-
-		int n;
-
-
-
-			if (r < 0)
-
-						n = -1 * (r % 10);
-
-				else
-
-							n = r % 10;
-
-
-
-					_putchar((n % 10) + '0'						return (n % 10);
-
+int i, j;
+i = 0;
+while (i < 24)
+{
+j = 0;
+while (j < 60)
+_putchar((i / 10) + '0');
+_putchar((i % 10) + '0');
+_putchar(':');
+_putchar((j / 10) + '0');
+_putchar((j % 10) + '0');
+_putchar('\n');
+j++;
 }
+i++;
+}
+}
+
