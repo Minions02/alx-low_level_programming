@@ -1,7 +1,7 @@
 <h1> C - Bit manipulation </h1>
 In this project, I leart how to manipulate bits and use the bitwise operators >>, <<, &, |, and ^ in C.
 
-<h2> Header </h2> File file_folder
+<h2> Header File </h2> file_folder
 main.h: Header file containing prototypes for all functions written in the project.
 File	Prototype
 0-binary_to_uint.c	unsigned int binary_to_uint(const char *b);
