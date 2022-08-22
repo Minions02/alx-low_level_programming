@@ -1,4 +1,4 @@
-C - Bit manipulation
+<h1> C - Bit manipulation </h1>
 In this project, I learned how to manipulate bits and use the bitwise operators >>, <<, &, |, and ^ in C.
 
 Header File file_folder
