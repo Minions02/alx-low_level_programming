@@ -1,0 +1,4 @@
+# Version of gcc: 9.3.0
+# Version of make: GNU Make 4.2.1
+all: main.c school.c
+	gcc main.c school.c -o school
