@@ -1,1 +1,5 @@
-C - Makefiles
+# This Directory is for makefiles
+
+```
+# -*- Makefile -*-
+```
